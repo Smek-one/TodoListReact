@@ -1,38 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+}
+body {
+  background-color: #316B83;
+}
+.title h1 {
+  color: #6D8299;
+  text-align: center;
+  margin: 15px 0;
+  font-family: 'Shadows Into Light', cursive;  
+  font-weight: 700;
+  font-size: 4rem;
+  text-shadow: 2px 3px #D5BFBF;
+}
+form {
+  max-width: 500px;
+  margin: 0 auto;
+  background: #6D8299;
+  padding: 10px 20px;
+  margin-top: 50px;
+  border-radius: 25px;
+}
+form h3 {
+  text-align: center;
+}
+form input {
+  width: 100%;
+  padding: 10px 5px;
+  text-align: center;
+  outline: none;
+  margin: auto;
+  font-size: 1.6rem;
+  color:#8CA1A5;
+  font-family: 'Indie Flower', cursive;
+  font-weight: 900;
+  border:1px solid #D5BFBF;
+  border-radius: 25px;
+}
+.input_container {
+  margin:20px;
+}
+.btn_container {
+  text-align: center;
+  margin-bottom: 10px;
+}
+.btn_container button {
+  background: #8CA1A5;
+  color: #D5BFBF;
+  padding: 10px 20px;
+  outline: none;
+  border: none;
+  border-radius: 10px;
+  font-size: 1.6rem;
+  cursor: pointer;
+  font-family: 'Indie Flower', cursive;  font-weight: 500;
 }
 
-.App-link {
-  color: #61dafb;
+.todo_container {
+  width: 50%;
+  margin: 0 auto;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.todo {
+  margin-top: 20px;
+  background: #D5BFBF;
+  border:1px solid #6D8299;
+  padding: 10px 20px;
+  border-radius: 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.todo input {
+  cursor: pointer;
+  width: 50%;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: transparent;
+  font-size: 28px;
+  font-family: 'Indie Flower', cursive;  
+  font-weight: 900;
+  color:#6D8299;
+}
+.button-complete,
+.button-delete,
+.button-edit {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: transparent;
+  border-radius: 50%;
+}
+#i {
+  font-size: 35px;
+}
+.button-complete {
+  color: #316B83;
+  margin-right: 10px;
+}
+.button-edit {
+  color: #99A799;
+  margin-right: 10px;
+}
+.button-delete {
+  color: #8CA1A5;
+}
+@media screen and (max-width: 667px) {
+  .task_container {
+    width: 90%;
   }
-  to {
-    transform: rotate(360deg);
+  .task {
+    margin-right: 0px;
   }
+}
+input:focus,
+button:focus {
+  outline: none;
 }
