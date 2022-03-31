@@ -117,8 +117,7 @@ form input {
   .task {
     margin: 0;
   }
-}
-input:focus,
+  input:focus,
 button:focus {
   outline: none;
 }
@@ -217,4 +216,5 @@ form input {
 }
 .button-delete {
   color: #8CA1A5;
+}
 }
