@@ -112,13 +112,109 @@ form input {
 }
 @media screen and (max-width: 667px) {
   .task_container {
-    width: 90%;
+    width: 100vw;
   }
   .task {
-    margin-right: 0px;
+    margin: 0;
   }
 }
 input:focus,
 button:focus {
   outline: none;
+}
+form {
+  max-width: 100vw;
+  margin: 0 auto;
+  background: #6D8299;
+  padding: 5px 10px;
+  margin-top: 20px;
+  border-radius: 25px;
+}
+form h3 {
+  text-align: center;
+}
+form input {
+  width: 100%;
+  padding: 5px 3px;
+  text-align: center;
+  outline: none;
+  margin: auto;
+  font-size: 1.2rem;
+  color:#8CA1A5;
+  font-family: 'Indie Flower', cursive;
+  font-weight: 900;
+  border:1px solid #D5BFBF;
+  border-radius: 25px;
+}
+.input_container {
+  margin:20px;
+}
+.btn_container {
+  text-align: center;
+  margin-bottom: 5px;
+}
+.btn_container button {
+  background: #8CA1A5;
+  color: #D5BFBF;
+  padding: 5px 10px;
+  outline: none;
+  border: none;
+  border-radius: 10px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  font-family: 'Indie Flower', cursive;  
+  font-weight: 700;
+}
+
+.todo_container {
+  width: 100vw;
+  margin: 0 auto;
+  
+}
+.todo {
+  margin-top: 10px;
+  background: #D5BFBF;
+  border:1px solid #6D8299;
+  padding: 5px 10px;
+  border-radius: 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.todo input {
+  cursor: pointer;
+  width: 100%;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: transparent;
+  font-size: 1.3rem;
+  font-family: 'Indie Flower', cursive;  
+  font-weight: 900;
+  color:#6D8299;
+}
+.button-complete,
+.button-delete,
+.button-edit {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: transparent;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+}
+#i {
+  font-size: 1.2rem;
+}
+.button-complete {
+  color: #316B83;
+  margin-right: 5px;
+}
+.button-edit {
+  color: #99A799;
+  margin-right: 5px;
+}
+.button-delete {
+  color: #8CA1A5;
 }
