@@ -12,6 +12,7 @@ import {
   deleteDoc,
 } from "firebase/firestore";
 import { db } from "./firebase";
+import Connexion from "./components/Connexion";
 
 function App() {
   const [todos, setTodos] = React.useState([]);
@@ -40,6 +41,7 @@ function App() {
   return (
     <div className="App">
       <div>
+        <Connexion />
         <Title />
       </div>
       <div>

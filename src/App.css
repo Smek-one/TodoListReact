@@ -7,21 +7,21 @@
   justify-content: center;
 }
 body {
-  background-color: #316B83;
+  background-color: #293135;
 }
 .title h1 {
-  color: #6D8299;
+  color: #559ba9;
   text-align: center;
   margin: 15px 0;
   font-family: 'Shadows Into Light', cursive;  
   font-weight: 700;
   font-size: 4rem;
-  text-shadow: 2px 3px #D5BFBF;
+  text-shadow: 2px 3px #ffffff;
 }
 form {
   max-width: 500px;
   margin: 0 auto;
-  background: #6D8299;
+  background: #4d729a;
   padding: 10px 20px;
   margin-top: 50px;
   border-radius: 25px;
@@ -36,10 +36,10 @@ form input {
   outline: none;
   margin: auto;
   font-size: 1.6rem;
-  color:#8CA1A5;
+  color:#293135;
   font-family: 'Indie Flower', cursive;
   font-weight: 900;
-  border:1px solid #D5BFBF;
+  border:1px solid #ffffff;
   border-radius: 25px;
 }
 .input_container {
@@ -50,15 +50,16 @@ form input {
   margin-bottom: 10px;
 }
 .btn_container button {
-  background: #8CA1A5;
-  color: #D5BFBF;
+  background: #559ba9;
+  color: #ffffff;
   padding: 10px 20px;
   outline: none;
   border: none;
   border-radius: 10px;
   font-size: 1.6rem;
   cursor: pointer;
-  font-family: 'Indie Flower', cursive;  font-weight: 500;
+  font-family: 'Indie Flower', cursive;  
+  font-weight: bolder;
 }
 
 .todo_container {
@@ -67,7 +68,7 @@ form input {
 }
 .todo {
   margin-top: 20px;
-  background: #D5BFBF;
+  background: #ffffff;
   border:1px solid #6D8299;
   padding: 10px 20px;
   border-radius: 25px;
@@ -85,7 +86,7 @@ form input {
   font-size: 28px;
   font-family: 'Indie Flower', cursive;  
   font-weight: 900;
-  color:#6D8299;
+  color:#293135;
 }
 .button-complete,
 .button-delete,
@@ -104,11 +105,11 @@ form input {
   margin-right: 10px;
 }
 .button-edit {
-  color: #99A799;
+  color: #293135;
   margin-right: 10px;
 }
 .button-delete {
-  color: #8CA1A5;
+  color: #c55050;
 }
 @media screen and (max-width: 667px) {
   .task_container {
